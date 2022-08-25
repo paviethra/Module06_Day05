@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+
+body{
+  text-align: center;
+  font-family: 'IBM Plex Sans', sans-serif;
+  background-color: #f3eeee;
+}
+
+.effects {
+  display: flex;
+}
+
+.won {
+  color: white;
+  background: rgb(39, 156, 39);
+  padding: 5px;
+  width: 200px;
+  margin: 0 auto;
+}
+
+.lost {
+  color: white;
+  background: rgb(182, 60, 56);
+  padding: 5px;
+  width: 200px;
+  margin: 0 auto;
+}
+
+.draw {
+  color: white;
+  background: rgb(93, 98, 168);
+  padding: 5px;
+  border-radius: 10px;
+  width: 200px;
+  margin: 0 auto;
+}
+
+#dice {
+  border-radius: 70px;
+}
+
+span {
+  background: rgb(230, 86, 86);
+  color: white;
+  padding: 5px;
+  width: 100px;
+  margin: 20px;
+}
+
+span:hover {
+  background: rgb(138, 49, 49);
+  transition: 0.5s;
+}
+
+.table {
+  color: white;
+  margin: 20px;
+  width: 200px;
+  background: rgb(138, 138, 241);
+  padding: 5px;
+}
+
+.result {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.display-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
